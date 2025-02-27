@@ -28,9 +28,6 @@ import reactor.core.publisher.Mono;
 
 
 /**
- * @author Raymond Augé
- * @author Gregory Amerson
- * @author Brian Wing Shun Chan
  */
 @RequestMapping("/object/action/ticket-suggestion")
 @RestController
@@ -91,7 +88,7 @@ public class TicketActionSuggestionRestController extends BaseRestController {
 
 	private JSONObject getSuggestion (JSONObject jsonObject){
 		String suggestion = "There are no suggestions for this ticket";
-		//TODO: implement your own logic/integration to get suggestions from the 
+		//TODO: implement your own logic/integration to get suggestions
 		JSONObject response = new JSONObject();
 		response.put("suggestions", suggestion);
 		return response;
