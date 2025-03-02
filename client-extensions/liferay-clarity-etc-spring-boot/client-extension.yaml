@@ -13,6 +13,11 @@ liferay-clarity-etc-spring-boot-object-action-account:
     oAuth2ApplicationExternalReferenceCode: liferay-clarity-etc-spring-boot-oauth-application-user-agent
     resourcePath: /object/action/account
     type: objectAction
+liferay-clarity-etc-spring-boot-object-action-ticket-suggestion:
+    name: Liferay Clarity Etc Spring Boot Object Action Ticket suggestion
+    oAuth2ApplicationExternalReferenceCode: liferay-clarity-etc-spring-boot-oauth-application-user-agent
+    resourcePath: /object/action/ticket-suggestion
+    type: objectAction
 liferay-clarity-etc-spring-boot-workflow-action-application:
     name: Liferay Clarity Etc Spring Boot Workflow Action Application
     oAuth2ApplicationExternalReferenceCode: liferay-clarity-etc-spring-boot-oauth-application-user-agent
