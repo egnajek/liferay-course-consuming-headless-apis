@@ -1,0 +1,826 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "C_Ticket"
+	},
+	"items": [
+  {
+    "externalReferenceCode": "TCKT0001",
+    "status": {
+      "code": 0
+    },
+    "subject": "Lens Scratch Issue",
+    "description": "<p>Customer reports scratches on newly received lenses.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "major"
+    },
+    "type": {
+      "key": "productIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "open"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports scratches on newly received lenses.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0002",
+    "status": {
+      "code": 0
+    },
+    "subject": "Order Processing Delay",
+    "description": "<p>Customer experiencing delays in order processing for sunglasses.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inProgress"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer experiencing delays in order processing for sunglasses.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0003",
+    "status": {
+      "code": 0
+    },
+    "subject": "Incorrect Prescription",
+    "description": "<p>Customer reports incorrect prescription for contact lenses.</p>",
+    "userToTicketERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "priority": {
+      "key": "critical"
+    },
+    "type": {
+      "key": "productIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "answered"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports incorrect prescription for contact lenses.",
+    "r_userToTicket_userERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "region": {
+      "key": "aPAC"
+    },
+    "r_ticketToTickets_c_ticketERC": "TCKT0001" 
+  },
+  {
+    "externalReferenceCode": "TCKT0004",
+    "status": {
+      "code": 0
+    },
+    "subject": "Broken Glasses Frame",
+    "description": "<p>Customer received glasses with a broken frame.</p>",
+    "userToTicketERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "priority": {
+      "key": "major"
+    },
+    "type": {
+      "key": "deliveryIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inProgress"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer received glasses with a broken frame.",
+    "r_userToTicket_userERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "region": {
+      "key": "lATAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0005",
+    "status": {
+      "code": 0
+    },
+    "subject": "Missing Sunglasses Case",
+    "description": "<p>Sunglasses delivered without a case.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "deliveryIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "escalated"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Sunglasses delivered without a case.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0006",
+    "status": {
+      "code": 0
+    },
+    "subject": "Website Checkout Error",
+    "description": "<p>Customers unable to complete checkout on the website.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "critical"
+    },
+    "type": {
+      "key": "siteIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "verifying"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customers unable to complete checkout on the website.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0007",
+    "status": {
+      "code": 0
+    },
+    "subject": "Contact Lens Discomfort",
+    "description": "<p>Customer reports discomfort when wearing contact lenses.</p>",
+    "userToTicketERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "productIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inReview"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports discomfort when wearing contact lenses.",
+    "r_userToTicket_userERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "region": {
+      "key": "aPAC"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0008",
+    "status": {
+      "code": 0
+    },
+    "subject": "Warranty Inquiry",
+    "description": "<p>Customer inquiring about warranty policy for glasses.</p>",
+    "userToTicketERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "other"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "open"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer inquiring about warranty policy for glasses.",
+    "r_userToTicket_userERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "region": {
+      "key": "lATAM"
+    },
+    "r_ticketToTickets_c_ticketERC": "TCKT0004" 
+  },
+  {
+    "externalReferenceCode": "TCKT0009",
+    "status": {
+      "code": 0
+    },
+    "subject": "Lens Cleaning Solution Issue",
+    "description": "<p>Customer reports adverse reaction to lens cleaning solution.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "productIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inProgress"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports adverse reaction to lens cleaning solution.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0010",
+    "status": {
+      "code": 0
+    },
+    "subject": "Order Cancellation",
+    "description": "<p>Customer wants to cancel order for sunglasses.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "answered"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer wants to cancel order for sunglasses.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  },
+ {
+    "externalReferenceCode": "TCKT0011",
+    "status": {
+      "code": 0
+    },
+    "subject": "Delivery Delay - Contact Lenses",
+    "description": "<p>Customer reports significant delay in receiving contact lens order.</p>",
+    "userToTicketERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "deliveryIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "closed"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports significant delay in receiving contact lens order.",
+    "r_userToTicket_userERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "region": {
+      "key": "aPAC"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0012",
+    "status": {
+      "code": 0
+    },
+    "subject": "Glasses Frame Sizing Issue",
+    "description": "<p>Customer reports glasses frame is the wrong size.</p>",
+    "userToTicketERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "productIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "escalated"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports glasses frame is the wrong size.",
+    "r_userToTicket_userERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "region": {
+      "key": "lATAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0013",
+    "status": {
+      "code": 0
+    },
+    "subject": "Lens Solution Allergy",
+    "description": "<p>Customer experiencing allergic reaction to contact lens solution.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "major"
+    },
+    "type": {
+      "key": "productIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "verifying"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer experiencing allergic reaction to contact lens solution.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0014",
+    "status": {
+      "code": 0
+    },
+    "subject": "Website Login Issue",
+    "description": "<p>Customers unable to log in to their accounts on the website.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "critical"
+    },
+    "type": {
+      "key": "siteIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inReview"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customers unable to log in to their accounts on the website.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0015",
+    "status": {
+      "code": 0
+    },
+    "subject": "Sunglasses Warranty Claim",
+    "description": "<p>Customer wants to claim warranty for damaged sunglasses.</p>",
+    "userToTicketERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "other"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "open"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer wants to claim warranty for damaged sunglasses.",
+    "r_userToTicket_userERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "region": {
+      "key": "aPAC"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0016",
+    "status": {
+      "code": 0
+    },
+    "subject": "Order Status Inquiry",
+    "description": "<p>Customer inquiring about the status of their glasses order.</p>",
+    "userToTicketERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inProgress"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer inquiring about the status of their glasses order.",
+    "r_userToTicket_userERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "region": {
+      "key": "lATAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0017",
+    "status": {
+      "code": 0
+    },
+    "subject": "Contact Lens Prescription Update",
+    "description": "<p>Customer wants to update their contact lens prescription.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "accountIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "answered"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer wants to update their contact lens prescription.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0018",
+    "status": {
+      "code": 0
+    },
+    "subject": "Return Request - Sunglasses",
+    "description": "<p>Customer wants to return sunglasses for a refund.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "closed"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer wants to return sunglasses for a refund.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0019",
+    "status": {
+      "code": 0
+    },
+    "subject": "Damaged Glasses During Delivery",
+    "description": "<p>Customer reports glasses arrived damaged during delivery.</p>",
+    "userToTicketERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "priority": {
+      "key": "major"
+    },
+    "type": {
+      "key": "deliveryIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "escalated"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports glasses arrived damaged during delivery.",
+    "r_userToTicket_userERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "region": {
+      "key": "aPAC"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0020",
+    "status": {
+      "code": 0
+    },
+    "subject": "Missing Contact Lens",
+    "description": "<p>Customer reports missing contact lens from order.</p>",
+    "userToTicketERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "verifying"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports missing contact lens from order.",
+    "r_userToTicket_userERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "region": {
+      "key": "lATAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0021",
+    "status": {
+      "code": 0
+    },
+    "subject": "Eye Irritation - New Glasses",
+    "description": "<p>Customer reports eye irritation after wearing new glasses.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "productIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inReview"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports eye irritation after wearing new glasses.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0022",
+    "status": {
+      "code": 0
+    },
+    "subject": "Delayed Shipping Notification",
+    "description": "<p>Customer did not receive shipping notification for sunglasses order.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "open"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer did not receive shipping notification for sunglasses order.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0023",
+    "status": {
+      "code": 0
+    },
+    "subject": "Incorrect Lens Solution Delivered",
+    "description": "<p>Customer received the wrong type of contact lens solution.</p>",
+    "userToTicketERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "deliveryIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inProgress"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer received the wrong type of contact lens solution.",
+    "r_userToTicket_userERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "region": {
+      "key": "aPAC"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0024",
+    "status": {
+      "code": 0
+    },
+    "subject": "Glasses Case Quality Issue",
+    "description": "<p>Customer reports poor quality glasses case received with order.</p>",
+    "userToTicketERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "other"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "answered"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports poor quality glasses case received with order.",
+    "r_userToTicket_userERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "region": {
+      "key": "lATAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0025",
+    "status": {
+      "code": 0
+    },
+    "subject": "Lens Reorder Issue",
+    "description": "<p>Customer unable to reorder contact lenses through online account.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "siteIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "closed"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer unable to reorder contact lenses through online account.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0026",
+    "status": {
+      "code": 0
+    },
+    "subject": "Sunglasses Size Exchange",
+    "description": "<p>Customer wants to exchange sunglasses for a different size.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "escalated"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer wants to exchange sunglasses for a different size.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0027",
+    "status": {
+      "code": 0
+    },
+    "subject": "Contact Lens Solution Recall",
+    "description": "<p>Inquiry about a recent contact lens solution recall.</p>",
+    "userToTicketERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "other"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "verifying"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Inquiry about a recent contact lens solution recall.",
+    "r_userToTicket_userERC": "83fcef36-9162-573a-d59f-24d94e963647",
+    "region": {
+      "key": "aPAC"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0028",
+    "status": {
+      "code": 0
+    },
+    "subject": "Glasses Frame Adjustment",
+    "description": "<p>Customer needs glasses frame adjusted for better fit.</p>",
+    "userToTicketERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "other"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inReview"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer needs glasses frame adjusted for better fit.",
+    "r_userToTicket_userERC": "9c6d8a40-caf7-b045-947b-5857b7e6c964",
+    "region": {
+      "key": "lATAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0029",
+    "status": {
+      "code": 0
+    },
+    "subject": "Online Prescription Upload Issue",
+    "description": "<p>Customer unable to upload prescription for online order.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "siteIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "open"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer unable to upload prescription for online order.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    }
+  },
+  {
+    "externalReferenceCode": "TCKT0030",
+    "status": {
+      "code": 0
+    },
+    "subject": "Promotional Code Not Working",
+    "description": "<p>Customer reports promotional code not working during checkout.</p>",
+    "userToTicketERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "priority": {
+      "key": "minor"
+    },
+    "type": {
+      "key": "orderIssue"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inProgress"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Customer reports promotional code not working during checkout.",
+    "r_userToTicket_userERC": "c6eb118a-04cc-f513-ac9b-eb006769a048",
+    "region": {
+      "key": "eMEA"
+    }
+  } 
+]
+}
