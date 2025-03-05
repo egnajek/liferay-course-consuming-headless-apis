@@ -821,6 +821,122 @@
     "region": {
       "key": "eMEA"
     }
-  } 
+  },
+  {
+    "externalReferenceCode": "TCKT0031",
+    "status": {
+      "code": 0
+    },
+    "subject": "Follow Up: Application Deployment Failure",
+    "description": "<p>Checking on the status of the application deployment failure.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "critical"
+    },
+    "type": {
+      "key": "application"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "inProgress"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Checking on the status of the application deployment failure.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    },
+    "r_ticketToTickets_c_ticketERC": "TCKT0001",
+    "ticketToTicketsERC": "TCKT0001"
+  },
+  {
+    "externalReferenceCode": "TCKT0032",
+    "status": {
+      "code": 0
+    },
+    "subject": "Re: Application Deployment Failure",
+    "description": "<p>Providing an update on the application deployment issue.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "critical"
+    },
+    "type": {
+      "key": "application"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "answered"
+    },
+    "suggestions": "",
+    "descriptionRawText": "Providing an update on the application deployment issue.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    },
+    "r_ticketToTickets_c_ticketERC": "TCKT0001",
+    "ticketToTicketsERC": "TCKT0001"
+  },
+  {
+    "externalReferenceCode": "TCKT0033",
+    "status": {
+      "code": 0
+    },
+    "subject": "Application Deployment Failure - Resolution",
+    "description": "<p>The application deployment issue has been resolved.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "critical"
+    },
+    "type": {
+      "key": "application"
+    },
+    "resolution": {
+      "key": "fixed"
+    },
+    "ticketStatus": {
+      "key": "closed"
+    },
+    "suggestions": "",
+    "descriptionRawText": "The application deployment issue has been resolved.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    },
+    "r_ticketToTickets_c_ticketERC": "TCKT0003",
+    "ticketToTicketsERC": "TCKT0003"
+  },
+  {
+    "externalReferenceCode": "TCKT0034",
+    "status": {
+      "code": 0
+    },
+    "subject": "Question Regarding Application Deployment",
+    "description": "<p>I have a question about the recent application deployment failure.</p>",
+    "userToTicketERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "priority": {
+      "key": "moderate"
+    },
+    "type": {
+      "key": "application"
+    },
+    "resolution": {
+      "key": ""
+    },
+    "ticketStatus": {
+      "key": "open"
+    },
+    "suggestions": "",
+    "descriptionRawText": "I have a question about the recent application deployment failure.",
+    "r_userToTicket_userERC": "84272f59-2f3f-8227-67bd-ae95bc1fbdca",
+    "region": {
+      "key": "nORAM"
+    },
+    "r_ticketToTickets_c_ticketERC": "TCKT0033",
+    "ticketToTicketsERC": "TCKT0033"
+  }  
 ]
 }
