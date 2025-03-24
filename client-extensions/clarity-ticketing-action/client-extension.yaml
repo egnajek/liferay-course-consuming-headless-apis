@@ -5,8 +5,7 @@ clarity-ticketing-action-oauth-application-user-agent:
     .serviceScheme: http
     name: Clarity Ticketing Action OAuth Application User Agent
     scopes:
-        - Liferay.Headless.Admin.User.everything
-        - Liferay.Headless.Admin.Workflow.everything
+        - Liferay.Object.Admin.REST.everything
     type: oAuthApplicationUserAgent
 clarity-ticketing-action-object-action-ticket-suggestion:
     name: Clarity Ticketing Suggestion
