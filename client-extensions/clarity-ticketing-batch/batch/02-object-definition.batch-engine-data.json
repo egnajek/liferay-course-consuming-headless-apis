@@ -56,15 +56,15 @@
 				},
 				{
 					"active": false,
-					"conditionExpression": "ticketStatus == 'open'",
+					"conditionExpression": "",
 					"description": "",
 					"errorMessage": {
 					},
 					"label": {
-						"en_US": "Liferay Ticket Etc Spring Boot Object Action Ticket"
+						"en_US": "Clarity Ticketing Suggestion Action"
 					},
-					"name": "SpringBootObjectActionTicket",
-					"objectActionExecutorKey": "function#liferay-ticket-etc-spring-boot-object-action-ticket",
+					"name": "clarityTicketingSuggestionAction",
+					"objectActionExecutorKey": "",
 					"objectActionTriggerKey": "onAfterAdd",
 					"parameters": {
 					},
